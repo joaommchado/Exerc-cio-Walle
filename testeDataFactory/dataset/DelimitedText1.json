@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "AulaRodrigo/raw",
+				"folderPath": "AulaRodrigo/raw/2018",
 				"fileSystem": "joaofilesystemaula"
 			},
 			"columnDelimiter": ",",
