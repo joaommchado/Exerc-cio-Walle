@@ -1,0 +1,28 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "AulaRodrigo/raw",
+				"fileSystem": "joaofilesystemaula"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "FUNCION�RIO;STATUS;IDADE;ECIV;DIST_EMP;TIPORESID;PRIM_EMP;TESTE;EDUC",
+				"type": "String"
+			}
+		]
+	}
+}
